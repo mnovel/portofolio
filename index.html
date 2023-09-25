@@ -25,12 +25,15 @@
     <meta name="twitter:title" content="Portofolio Saya">
     <meta name="twitter:description" content="Muhammad Novel's Portfolio - A Cyber Security Expert">
     <meta name="twitter:image" content="asset/img/profile.jpeg">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-xxl bg-body-tertiary shadow sticky-top">
         <div class="container-fluid">
-            <a class="navbar-bran" href="#"></a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,82 +41,137 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#hobby">Hobby</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Hobby</a>
+                        <a class="nav-link" href="#skill">Skill</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Skill</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-lg-5 py-3">
+
+    <div class="container col-xxl-8 px-4 py-5 vh-100" id="home">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-lg-5 py-3 h-100">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="asset/img/profile.jpeg" class="shadow-lg d-block mx-lg-auto img-fluid rounded-end-circle"
-                    alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy" data-aos="fade-left">
             </div>
-            <div class="col-lg-6">
-                <div class="d-flex flex-wrap align-items-center fs-6">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="d-flex flex-wrap align-items-center fs-6 ">
                     <hr width="50px" class="mr-3 mx-3">
-                    <span> HELLO</span>
+                    <span class="text-info"> HELLO</span>
                 </div>
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 typewrite" data-period="5000"
-                    data-type='[ "Hello, World!", "My name is Muhammad Novel.", "I am a Cyber Security Expert." ]'></h1>
+                    data-type='[ "Hello, World!", "My name is Muhammad Novel.", "I am a Cyber Security Expert." ]'>
+                </h1>
                 <p class="lead">Saya Muhammad Novel, seorang ahli keamanan siber dengan minat dalam teknologi dan
                     keamanan komputer. Selamat datang di portofolio saya, di sini Anda dapat mengetahui lebih lanjut
                     tentang pengalaman dan keterampilan saya.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-outline-primary btn-lg px-4 me-md-2 rounded-pill"><i
+                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-md-2 rounded-pill shadow"><i
                             class="fa-solid fa-download"></i> Download CV</button>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="d-flex flex-wrap justify-content-center py-1 my-1">
-        <ul class="nav list-unstyled  h3">
-            <li class="ms-3 p-3">
-                <a class="text-body-secondary" target="_blank" href="https://instagram.com/mnovel._">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-            <li class="ms-3 p-3">
-                <a class="text-body-secondary" target="_blank" href="https://www.linkedin.com/in/muhammad-novel/">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="ms-3 p-3">
-                <a class="text-body-secondary" target="_blank"
-                    href="https://www.facebook.com/profile.php?id=100011020334361">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </li>
-            <li class="ms-3 p-3">
-                <a class="text-body-secondary" target="_blank" href="https://twitter.com/muhnovel_">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-            </li>
-            <li class="ms-3 p-3">
-                <a class="text-body-secondary" target="_blank" href="https://github.com/mnovel/">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-        </ul>
+
+    <div class="bg-light py-5 vh-100" id="about">
+        <div class="container">
+            <h1 class="text-info text-center mt-4">About Me</h1>
+            <hr class="col-5 col-lg-3 text-info mx-auto mb-3" style="border-top: 3px solid;">
+            <div class="row row-cols-lg-2 row-cols-1 align-items-center g-5">
+                <div class="col">
+                    <img src="asset/img/about.jpeg" class="shadow-lg d-block mx-lg-auto img-fluid rounded-circle"
+                        width="700" height="500" loading="lazy" data-aos="fade-left">
+                </div>
+                <div class="col" data-aos="fade-right">
+                    <h3 class="text-info display-6">Cyber Security & Backend Developer</h3>
+                    <p class="lead">
+                        Selamat datang di portofolio saya! Nama saya Muhammad Novel, seorang ahli keamanan siber yang
+                        memiliki minat mendalam dalam teknologi dan keamanan komputer. Saya telah menghabiskan banyak
+                        waktu untuk mempelajari dan memahami berbagai aspek keamanan siber, dan saya sangat menikmati
+                        apa yang saya lakukan.
+                    </p>
+                    <p class="lead">
+                        Di portofolio ini, Anda akan menemukan berbagai proyek yang telah saya kerjakan, serta
+                        keterampilan dan pengetahuan yang telah saya kumpulkan sepanjang perjalanan karir saya. Saya
+                        percaya bahwa keamanan siber adalah bidang yang sangat penting dan selalu berkembang, dan saya
+                        bersemangat untuk terus belajar dan tumbuh di dalamnya.
+                    </p>
+                    <p class="lead">
+                        Terima kasih telah meluangkan waktu untuk mengunjungi portofolio saya. Saya berharap Anda
+                        menemukan informasi di sini yang menarik dan bermanfaat. Jika Anda memiliki pertanyaan atau
+                        ingin berdiskusi lebih lanjut tentang pekerjaan saya, jangan ragu untuk menghubungi saya.
+                        Selamat menjelajah!
+                    </p>
+                    <div class="lead">
+                        <div class="row">
+                            <div class="col">
+                                <p><strong>Nama</strong>: Muhammad Novel</p>
+                                <p><strong>Asal</strong>: Malang</p>
+                            </div>
+                            <div class="col">
+                                <p><strong>Tanggal Lahir</strong>: 2 Agustus 2003</p>
+                                <p><strong>Email</strong>: mnovel78@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-center py-1 my-1 mt-5 mb-3">
+        <div class="shadow-lg rounded-pill justify-content-center h3">
+            <ul class="nav list-unstyled rounded-pill px-4 py-3">
+                <li class="ms-5">
+                    <a class="text-body-secondary" target="_blank" href="https://instagram.com/mnovel._">
+                        <i class="fa-brands fa-instagram text-danger"></i>
+                    </a>
+                </li>
+                <li class="ms-5">
+                    <a class="text-body-secondary" target="_blank" href="https://www.linkedin.com/in/muhammad-novel/">
+                        <i class="fa-brands fa-linkedin text-primary"></i>
+                    </a>
+                </li>
+                <li class="ms-5">
+                    <a class="text-body-secondary" target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100011020334361">
+                        <i class="fa-brands fa-facebook text-primary"></i>
+                    </a>
+                </li>
+                <li class="ms-5">
+                    <a class="text-body-secondary" target="_blank" href="https://twitter.com/muhnovel_">
+                        <i class="fa-brands fa-twitter text-info"></i>
+                    </a>
+                </li>
+                <li class="ms-5 mx-5">
+                    <a class="text-body-secondary" target="_blank" href="https://github.com/mnovel/">
+                        <i class="fa-brands fa-github text-black"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/c1c9003162.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         var TxtType = function (el, toRotate, period) {
             this.toRotate = toRotate;
